@@ -26,3 +26,15 @@ body {
   align-items: center;
   gap: 10px;
 }
+.country__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+#search-box {
+  margin: 40px 0px 0px 40px;
+
+}
+#search-box:focus {
+  outline:0px;
+  border: 2px aquamarine solid;
+
+}
